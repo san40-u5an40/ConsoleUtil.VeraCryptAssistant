@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Exit/Exit.csproj" Id="c0f40c38-27d3-4a3f-8ba6-f33e34c5149a" />
+  <Project Path="Startup/Startup.csproj" />
+</Solution>
