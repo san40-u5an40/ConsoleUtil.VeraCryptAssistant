@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
-    <PackageReference Include="san40_u5an40.ConsoleDisplayFramework" Version="2.0.1" />
+    <PackageReference Include="san40_u5an40.ConsoleDisplayFramework" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>

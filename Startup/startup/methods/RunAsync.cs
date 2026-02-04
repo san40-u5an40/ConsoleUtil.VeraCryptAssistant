@@ -27,7 +27,7 @@
         while (true)
         {
             string password = await PasswordInputAsync("Введите пароль для монтирования тома (данные отображаться не будут, для выхода введите значение \"q\"): ");
-            if (password == "q" || string.IsNullOrEmpty(password))
+            if (password == "q" || password == "Q" || string.IsNullOrEmpty(password))
                 return;
 
             Console.Write("Идёт монтирование...");
