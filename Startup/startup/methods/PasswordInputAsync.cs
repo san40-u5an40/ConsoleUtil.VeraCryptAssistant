@@ -6,8 +6,7 @@
     private static async Task<string> PasswordInputAsync(string inputMessage)
     {
         var input = new ControllerReadLine(inputMessage);
-        var printer = new Printer<string>(new UpperDisplay(), input, false);
-        var password = await printer.ShowAsync();
+        var password = await Printer.ShowAsync(input, false);
         Console.Clear();
         return password;
     }
